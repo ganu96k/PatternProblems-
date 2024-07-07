@@ -1,7 +1,11 @@
 package pattern_NumberIncreased_perimid;
 
+
+
 public class NumberIncreasePiramid {
 	
+	
+	// static function 
 	public static  void patternprint(int n ) {
 		
 		//outer loop for print number of row 
@@ -16,9 +20,12 @@ public class NumberIncreasePiramid {
 		}
 		
 	}
-
+	
+	
 	public static void main(String[] args) {
 		int n = 6 ;
+		
+		// directly call static function without object  else error occure when  we not make function static 
 		patternprint(n);
 		
 
